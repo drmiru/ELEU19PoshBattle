@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "1ab8c496-2991-43e2-9d80-0bfe0eb0d872"
+        },
+        "functionAppName": {
+            "value": "d-fun-eleudemo001"
+        },
+        "location": {
+            "value": "West Europe"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "hostingPlanName": {
+            "value": "d-asp-eleufun001"
+        },
+        "serverFarmResourceGroup": {
+            "value": "d-rgr-eleudemos"
+        },
+        "storageAccountName": {
+            "value": "dstoeleufun001"
+        },
+        "sku": {
+            "value": "ElasticPremium"
+        },
+        "skuCode": {
+            "value": "EP1"
+        },
+        "workerSize": {
+            "value": "3"
+        },
+        "workerSizeId": {
+            "value": "3"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        }
+    }
+}
